@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio oficial de Amor Entre Estrellas y Disparates, una novela de ciencia ficción romántica llena de aventuras y emociones en el cosmos.">
+    <title>Amor Entre Estrellas y Disparates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        header {
+            background-color: #2e2e2e;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ff6f61;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .cta {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .cta a {
+            background-color: #ff6f61;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta a:hover {
+            background-color: #e65b50;
+        }
+        footer {
+            background-color: #2e2e2e;
+            padding: 10px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery img {
+            max-width: 200px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .testimonial {
+            background-color: #333333;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amor Entre Estrellas y Disparates</h1>
+        <nav>
+            <a href="#sinopsis">Sinopsis</a>
+            <a href="#personajes">Personajes</a>
+            <a href="#galeria">Galería</a>
+            <a href="#testimonios">Testimonios</a>
+            <a href="#comprar">Dónde Comprar</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="sinopsis">
+        <h2>Sinopsis</h2>
+        <p>En un futuro no muy lejano, la humanidad busca un nuevo hogar en el espacio. Steven Bancroft lidera la misión de la nave Astropioneer X, donde descubrirá que las aventuras cósmicas no solo traen peligros alienígenas, sino también viejos sentimientos cuando su exnovia Tiffany se une a la tripulación. Entre planetas misteriosos, alianzas inesperadas y una conexión telepática que complica todo, esta historia explora el amor, la redención y los límites del corazón humano.</p>
+    </section>
+
+    <section id="personajes">
+        <h2>Personajes</h2>
+        <ul>
+            <li><strong>Steven Bancroft:</strong> Ingeniero espacial y líder de la misión.</li>
+            <li><strong>Tiffany:</strong> Psicóloga de la tripulación y exnovia de Steven.</li>
+            <li><strong>Jack:</strong> Bromista copiloto que siempre tiene un comentario listo.</li>
+            <li><strong>Edmond Patrickson:</strong> Científico excéntrico con una mente brillante.</li>
+            <li><strong>R8-X:</strong> Un robot asistente con secretos ocultos.</li>
+            <li><strong>Zarok:</strong> Alienígena aliado con un pasado misterioso.</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/200" alt="Astropioneer X">
+            <img src="https://via.placeholder.com/200" alt="Steven y Tiffany">
+            <img src="https://via.placeholder.com/200" alt="Planeta misterioso">
+            <img src="https://via.placeholder.com/200" alt="Zarok, el alienígena aliado">
+        </div>
+    </section>
+
+    <section id="testimonios">
+        <h2>Testimonios</h2>
+        <div class="testimonial">
+            <p>"Una historia fascinante que combina romance y ciencia ficción de una manera brillante."</p>
+            <p><strong>- Ana López</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>"Me encantaron los personajes y cómo se desarrolla su conexión emocional en medio del caos espacial."</p>
+            <p><strong>- Carlos Ramírez</strong></p>
+        </div>
+    </section>
+
+    <section id="comprar">
+        <h2>Dónde Comprar</h2>
+        <p>Pronto disponible en plataformas como Amazon, Kindle y librerías seleccionadas.</p>
+        <div class="cta">
+            <a href="#">Reserva tu copia</a>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes preguntas o comentarios? Escríbenos a <a href="mailto:info@amorentrestrellas.com">info@amorentrestrellas.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Amor Entre Estrellas y Disparates. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
